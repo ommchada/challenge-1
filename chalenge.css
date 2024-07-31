@@ -1,0 +1,525 @@
+.heather{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+#logo{
+  margin-left: 200px;
+  margin-right: 300px;
+}
+#button{
+  width: 150px;
+  height: 50px;
+  background-color: rgb(60, 120, 194);
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+  border: 1px solid rgb(60, 120, 194);
+  margin-right: 200px;
+  transition: 0.3s all ease-in-out;
+}
+#button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(60, 120, 194);
+}
+#titres{
+  margin-left: 30px;
+  width: 140px;
+  display: contents;
+  justify-content: space-between;
+}
+#textecolor{
+  color: rgb(60, 120, 194);
+  font-size: 25px;
+  text-decoration: none;
+}
+.container1{
+  width: 100%;
+  height: 100vh;
+  background-image: url(Charity-banner-bg.jpg);
+  background-size: cover;
+  margin-bottom: 100px;
+}
+#filter1{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.313);
+  position: absolute;
+}
+#box1{
+  margin-left: 20px;
+}
+#charity1{
+  padding-top: 150px;
+  width: 550px;
+}
+#minitexte{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#grandtexte{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: 80px;
+}
+#button1{
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  border: 0px;
+  background-color: orangered;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  margin-right: 60px;
+  transition: .3s all ease-in-out;
+}
+#button1:hover{
+  background-color: white;
+  color: orangered;
+}
+#button2{
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  border: 1px solid white;
+  transition: .3s all ease-in-out;
+}
+#button2:hover{
+  background-color: white;
+  color: orangered;
+}
+.minitexte2{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+  text-align: center;
+}
+.grandtexte2{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(4, 0, 71);
+  text-align: center;
+  letter-spacing: -3px;
+  margin-bottom: 100px;
+}
+#box2{
+  margin: 0px 300px 120px 300px;
+  display: flex;
+  justify-content:space-between;
+  justify-items: center;
+}
+.petitbox{
+  width: 340px;
+  height: 400px;
+  overflow: hidden;
+}
+.titre-texte{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(4, 0, 71);
+}
+.parag1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(122, 122, 122);
+}
+.scale:hover{
+  transform: scale(1.10);
+  transition: .3s all ease-in-out;
+  color: orangered ;
+}
+#box3{
+  display: flex;
+  margin: 0px 300px 120px 300px;
+}
+#minitexte6{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+}
+#grandtexte6{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(4, 0, 71);
+  letter-spacing: -3px;
+}
+#button3{
+  display: flex;
+  justify-items: auto;
+  margin-left: 150px;
+}
+#playb{
+  width: 110px;
+}
+#playb:hover{
+  box-shadow: rgba(255, 0, 0, 0.383) 1px 1px 20px 0px;
+}
+#play{
+  font-size: x-large;
+  padding-top: 30px;
+}
+
+#texte2{
+  width: 600px;
+  margin: 100px 0px 0px 160px;
+}
+#img3{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-left: 34%;
+}
+#texte3{
+  margin:  140px 0px 100px 0px;
+  position: relative;
+  line-height: 10px;
+}
+.container2{
+  width: 100%;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.036);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#box4{
+  width: 550px;
+  margin-top: 100px;
+  line-height: 70px;
+}
+#img4{
+  margin-top: 145px;
+}
+#grandtexte4{
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(4, 0, 71);
+  letter-spacing: -3px;
+}
+#parag2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+}
+#button4{
+  width: 170px;
+  height: 50px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  transition: .3s all ease-in-out;
+}
+#button4:hover{
+  box-shadow: rgba(77, 246, 21, 0.383) 1px 1px 20px 0px;
+}
+#button5{
+  width: 170px;
+  height: 50px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: large;
+  font-weight: bold;
+  transition: .3s all ease-in-out;
+}
+#button5:hover{
+  color: green;
+}
+#imgmod{
+  margin-top: 120px;
+}
+#box5{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 18% 0 18%;
+}
+#grandtexte3{
+  margin-top: 200px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  text-align: center;
+}
+#parag3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 60px;
+}
+.container3{
+  width: 100%;
+  height: 38vh;
+  background-image: url(call_to_action21.jpg);
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 50px 0;
+  box-shadow: rgba(0, 0, 0, 0.503) 1px 1px 20px 0px;
+}
+#box6{
+  width: 750px;
+  text-align: center;
+  margin-top: -130px;
+  line-height: 50px;
+}
+#grandtexte5{
+  margin-top: 200px;
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+}
+#parag4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18.2px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+}
+#button6{
+  width: 300px;
+  height: 70px;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 35px;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-weight: bold;
+  transition: .3s all ease-in-out;
+}
+#button6:hover{
+  background-color: white;
+  color: rgb(228, 208, 57);
+}
+.photo{
+  width: 250px;
+  height: 310px;
+  position: relative;
+}
+.filter1{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+}
+.filter1:hover{
+  background-color: black;
+  opacity: .5;
+}
+
+@media screen and (max-width: 500px) {
+  body{
+    overflow-x: hidden;
+  }
+    .chalenge1{
+      overflow-x: hidden;
+    }
+  .heather{
+    display: block;
+  }
+  #titres{
+    display: block;
+    width: 100px;
+    font-size: 10px;
+    
+  }
+  #logo{
+    margin: 15px auto;
+  }
+  #button{
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    margin: 15px auto;
+  }
+  #textecolor{
+    font-size: 20px;
+  }
+  .container1{
+    width: 100%;
+    height: 50vh;
+    background-image: url(Charity-banner-bg.jpg);
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #filter1{
+    display: none;
+  }
+  #charity1{
+    width: 150px;
+    padding-top: 30px;
+  }
+  #minitexte{
+    font-size: 10px;
+  }
+  #grandtexte{
+    font-size: 30px;
+  }
+  #button1{
+    width: 150px;
+    height: 40px;
+    font-size: small;
+    margin-bottom: 10px;
+  }
+  #button2{
+    width: 150px;
+    height: 40px;
+    font-size: small;
+  }
+  .minitexte2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    text-align: center;
+  }
+  .grandtexte2{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 0, 71);
+    text-align: center;
+    letter-spacing: -2px;
+    margin-bottom: 50px;
+  }
+  #box2{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #box3{
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+  #box3 img{
+    width: 300px;
+    margin: 10px auto;
+    margin-top: 60px;
+  }
+  #texte2{
+    width: 300px;
+    margin: 25px;
+  }
+  #minitexte6{
+    font-size: 15px;
+  }
+  #grandtexte6{
+    font-size: 30px;
+    letter-spacing: -2px;
+  }
+  #button3{
+    float: left;
+  }
+  #play{
+    font-size: medium;
+  }
+  #box3 #button3 img {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: -100px;
+  }
+  #img3 img{
+    display: none;
+  }
+  #texte3{
+    margin-top: 50px;
+    position: relative;
+    line-height: 10px;
+  }
+  .container2{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.036);
+    background-size: cover;
+    flex-wrap: wrap;
+  }
+  #box4{
+    width: 90%;
+  }
+  #img4 img{
+    width: 300px;
+  }
+  #img4{
+    margin-top: 0;
+  }
+  #grandtexte4{
+    font-size: 25px;
+    margin-top: -60px;
+    letter-spacing: 0px;
+    line-height: 24px;
+  }
+  #parag2{
+    font-size: 15px;
+    line-height: 14px;
+  }
+  #box5{
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  #box5 .photo{
+    margin-bottom: 10px;
+  }
+  #grandtexte3{
+    margin-top: 90px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  .container3{
+    width: 100%;
+    height: 38vh;
+    background-image: url(call_to_action21.jpg);
+    background-size: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+   
+  }
+  #box6{
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 25px;
+  }
+  #grandtexte5{
+    margin-top:0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+  }
+  #parag4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    line-height: 15px;
+  }
+  #button6{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: medium;
+  }
+
+}
